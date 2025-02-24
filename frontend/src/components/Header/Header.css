@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #01192b;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 19px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+}
+
+nav a:hover,
+.btn-logout:hover {
+    color: #696969;
+}
+
+.btn-logout {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    /* padding: 7px; */
+}

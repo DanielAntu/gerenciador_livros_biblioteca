@@ -1,0 +1,28 @@
+.loan {
+    flex-direction: column;
+}
+
+.loan .date {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #01192b;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.loan .date p {
+    padding: 6px;
+}
+
+.loan h2 {
+    margin-bottom: 6px;
+}
+
+.loan .btn-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 6px;
+}

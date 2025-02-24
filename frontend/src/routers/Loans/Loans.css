@@ -1,0 +1,36 @@
+.loans .search-container {
+    margin-bottom: 6px;
+}
+
+.loan-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.loan-container > p {
+    width: 100%;
+    text-align: center;
+}
+
+.loan-container .loan-card {
+    border: 1px solid #01192b;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 49.6%;
+    gap: 10px;
+}
+
+.loan-card .btn-action {
+    text-align: center;
+    padding: 10px;
+}
+
+.filter-loan {
+    padding: 10px;
+}
