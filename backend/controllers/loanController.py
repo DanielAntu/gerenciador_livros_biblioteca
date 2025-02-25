@@ -174,20 +174,14 @@ def filter_is_return():
 
     if not user:
         return jsonify(msg='Usuário não encontrado.'), 404
-
+    
+    loan_list = []
+    
     if not is_return:
         loans = LoanService.get_loans()
-        loan_list = []
+    else:
+        loans = LoanService.filter_is_return(search, is_return)
 
-        if loans:
-            for loan in loans:
-                loan_list.append(loan.to_dict())
-            
-        return jsonify(loan_list)
-    
-    loans = LoanService.filter_is_return(search, is_return)
-
-    loan_list = []
 
     if loans:
         for loan in loans:
